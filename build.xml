@@ -1,1 +1,12 @@
 
+<prject default="compile">
+ <property name = "src.java.dir" locatin="./src/najah/edu"/>  
+  <property name = "result..dir" locatin= "./target"/>
+    <property name = "result.javaclasses.dir" locatin= "${result.dir}/classes"/>
+  
+  <targetname="compile">
+    <mkdir=${result.javaclasses.dir}"/>
+     <javac srcdir ="${src.java.dir}" destdir="${result.javaclasses.dir{" debug="true" includeantruntime= "fulse">
+         </javac>
+                                                                                                                 </target>
+                                                                                                                 </prject>
